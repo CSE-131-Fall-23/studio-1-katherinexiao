@@ -15,7 +15,23 @@ public class Ordered {
 		int y = in.nextInt();
 		System.out.println("Value for z?");
 		int z = in.nextInt();
-
+		boolean b1 = true;
+		boolean b2 = false;
+		
+		if ( x<y && y<z)
+		{
+			System.out.println(b1);
+			
+		}else if( x>y && y>z){
+			System.out.println(b1);
+		}
+		else {
+			System.out.println(b2);
+		}
+		
+		/*boolean b1 = (x>y && y>z) || (x<y && y<z)); 
+		 * System.out.println(b1);
+		 */
 	}
 
 }
